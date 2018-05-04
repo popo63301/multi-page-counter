@@ -1,0 +1,49 @@
+Store
+{	
+	counter: {
+		page1: 2,
+		page2: 3,
+		page3: 4
+		}
+}
+
+
+structure page:
+
+
+menu: page 1 - page 2 - page 3
+
+Vous êtes à la PAGE 1.
+
+		2
+
+	 Incrémenter
+
+_________________
+
+
+Component:
+Page1 (our root)
+Page2
+Page3
+Menu -> 
+MenuLinked (container) -> link vers les autres pages
+Body
+BodyC (container)
+_________________
+Reducer:
+Index
+Counter
+_________________
+Action:
+Index 
+
+
+
+
+
+
+
+
+
+
